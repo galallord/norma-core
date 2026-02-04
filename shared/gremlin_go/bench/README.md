@@ -20,7 +20,7 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 
 # Generate Google protobuf code
 protoc --go_out=. --go_opt=paths=source_relative \
-    google_pb/protobufs/benchmark.proto
+    protobufs/benchmark.proto
 ```
 
 ### 2. Generate Gremlin Code
@@ -30,7 +30,7 @@ protoc --go_out=. --go_opt=paths=source_relative \
 go install github.com/norma-core/norma-core/shared/gremlin_go/gremlinc@latest
 
 # Generate Gremlin code
-gremlinc -src ./gremlin_pb -out ./gremlin_pb -module github.com/norma-core/norma-core/shared/gremlin_go/bench/gremlin_pb
+gremlinc -src ./protobufs -out ./gremlin_pb -module github.com/norma-core/norma-core/shared/gremlin_go/bench/gremlin_pb
 ```
 
 ## Running Benchmarks
