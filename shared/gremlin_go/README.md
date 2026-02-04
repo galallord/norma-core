@@ -59,7 +59,7 @@ Gremlin is a blazingly fast Protocol Buffers implementation for Go that outperfo
 
 ```bash
 # Install the code generator
-go install github.com/norma-core/norma-core/shared/gremlin_go/bin@latest
+go install github.com/norma-core/norma-core/shared/gremlin_go/gremlinc@latest
 
 # Add runtime library to your project
 go get github.com/norma-core/norma-core/shared/gremlin_go
@@ -92,11 +92,11 @@ message Profile {
 
 ```bash
 # Generate code
-gremlin -src ./proto -out ./generated -module yourmodule/generated
+gremlinc -src ./proto -out ./generated -module yourmodule/generated
 
 # Or use it in your Makefile
 protobuf:
-	gremlin -src ./proto -out ./generated -module github.com/yourorg/yourproject/generated
+	gremlinc -src ./proto -out ./generated -module github.com/yourorg/yourproject/generated
 ```
 
 ### 3. Use in Your Code
@@ -221,7 +221,7 @@ go test ./...
 # Generator tests (requires building test protobufs first)
 cd bin
 go build -o gremlin .          # Build the generator
-./gremlin -src ./testproto -out ./testpb -module github.com/norma-core/norma-core/shared/gremlin_go/bin/testpb
+./gremlinc -src ./testproto -out ./testpb -module github.com/norma-core/norma-core/shared/gremlin_go/gremlinc/testpb
 go test ./...                   # Run tests
 
 # Benchmarks
