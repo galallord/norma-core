@@ -203,8 +203,8 @@ gremlin_go/
 ├── interface.go        # Core interfaces
 ├── reader.go           # Wire format reader
 ├── writer.go           # Wire format writer
-├── bin/                # Code generator
-│   └── gremlin.go
+├── gremlinc/           # Code generator
+│   └── main.go
 ├── example/            # Working example project
 │   ├── main.go
 │   └── proto/
@@ -220,7 +220,7 @@ go test ./...
 
 # Generator tests (requires building test protobufs first)
 cd bin
-go build -o gremlin .          # Build the generator
+go build -o gremlinc .          # Build the generator
 ./gremlinc -src ./testproto -out ./testpb -module github.com/norma-core/norma-core/shared/gremlin_go/gremlinc/testpb
 go test ./...                   # Run tests
 
