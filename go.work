@@ -1,0 +1,10 @@
+go 1.25
+
+use (
+	.
+	./shared/gremlin_go
+	./shared/gremlin_go/gremlinc
+	./shared/gremlin_go/bench
+	./shared/gremlin_go/example
+)
+
